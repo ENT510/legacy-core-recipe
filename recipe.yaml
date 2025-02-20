@@ -74,7 +74,7 @@ tasks:
     dest: ./tmp/fivem-appearance
 
   - action: move_path
-    src: ./tmp/fivem-appearance-main
+    src: ./tmp/fivem-appearance
     dest: ./resources/[standalone]/fivem-appearance
 
   - action: download_file
