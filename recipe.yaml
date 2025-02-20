@@ -101,6 +101,8 @@ tasks:
     dest: ./resources/[ox]
     src: ./tmp/files/oxmysql.zip
 
-  ## Cleanup
   - action: remove_path
     path: ./tmp
+
+  - action: remove_path
+    path: ./database
