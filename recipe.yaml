@@ -59,6 +59,11 @@ tasks:
     dest: ./resources/[LegacyResource]/LGF_Utility
 
   - action: download_github
+    src: https://github.com/ENT510/LGF_AmbulanceSystem
+    ref: main
+    dest: ./resources/[LegacyResource]/LGF_AmbulanceSystem
+
+  - action: download_github
     src: https://github.com/Bob74/bob74_ipl
     ref: master
     dest: ./resources/[standalone]/bob74_ipl
